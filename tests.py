@@ -22,7 +22,6 @@ class TestBooksCollector:
 
     # напиши свои тесты ниже
     # чтобы тесты были независимыми в каждом из них создавай отдельный экземпляр класса BooksCollector()
-
     def test_add_new_book(self, add_book): #тест на добавление книги
         collector = add_book.get_books_rating()
         assert len(collector) == 1
